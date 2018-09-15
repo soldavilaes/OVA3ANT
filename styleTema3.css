@@ -1,0 +1,482 @@
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i,800,800i,900,900i);
+
+/*-----------------------------
+* CONFIGURACIONES DE LA PAGINA
+-------------------------------*/
+
+html, body {
+  color: #555;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 auto;
+  overflow-X: hidden;
+  /*overflow-Y: auto;*/
+  padding: 0;
+  overflow-y:hidden;
+}
+
+*, *::after,*::before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a, a:active, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+  margin: 10px;
+  padding: 5px 5px 15px;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  width: absolute;
+  position: absolute;
+}
+h1, h5, h6 {
+  color: #555;
+  padding: 15px 7px 7px;
+   font-family: 'Open Sans', sans-serif;
+}
+h2{
+  color:#000000;
+  padding: 10px 7px 7px;
+   font-family: 'Open Sans', sans-serif;
+   text-shadow: white 0.1em 0.0em 0.2em;
+}
+h3 {
+  color: #000000;
+  padding: 0px 3px 7px;
+   font-family: 'Open Sans', sans-serif;
+}
+h4{
+  color: #000000;
+  padding: 0px 3px 7px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+/*header {
+  background: #161616;
+  border-bottom: 1px solid #1C1C1C;
+  box-shadow: 1px 0 2px rgba(0,0,0,.5);
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 0;
+  vertical-laign: middle;
+  z-index: 9;
+  height: 48px;
+  width: 2000px;
+  -webkit-transform: translate3d(0,0,0);
+     -moz-transform: translate3d(0,0,0);
+          transform: translate3d(0,0,0);
+  -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+}
+
+header [class*="menu-"] {
+  cursor: pointer;
+  font-size: 22px;
+  height: initial;
+  padding: 0px;
+  width: initial;
+}
+header h1 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.intro {
+  display: block;
+  top: -96px;
+  margin-right: auto;
+  height: 670px;
+ /* padding: 22.5%;
+  background-color: #507DBC;
+  left: 205px;
+  
+  z-index:1;
+  -webkit-transform: translate3d(0,0,0);
+     -moz-transform: translate3d(0,0,0);
+          transform: translate3d(0,0,0);
+  -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+}*/
+
+/*--------------------------
+* CAPAS DEL CONTENIDO
+---------------------------*/
+
+#cabecera {
+  background: #5E6269;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  top: 10px;
+  width: 970px;
+  height: 45px;
+  left: -100px; 
+}
+
+#cabecera h2 {
+  color: white;
+  padding: 10px 7px 7px;
+   font-family: 'Open Sans', sans-serif;
+   text-shadow: #000000 0.1em 0.0em 0.2em;
+}
+
+/*--------------------------
+* AUTOFORMA DEL TITULO
+---------------------------*/
+  #pointer {
+    width: 180px;
+    height: 25px;
+    position: relative;
+    background: #f4d03f;
+    top: 5px;
+    left: -4px;
+  }
+
+ /* #pointer:after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid white;
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent; 
+  }*/
+
+  #pointer:before {
+    content: "";
+    position: absolute;
+    right: -11px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 12.98px solid #f4d03f;
+    border-top: 13px solid transparent;
+    border-bottom: 12.98px solid transparent;
+  }
+
+/*--------------------------
+* CAPA ESCENARIO
+---------------------------*/
+
+#escenario{
+    display: block;
+    position: relative;
+    background: #E8E8E8;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 1px rgba(255,255,255,0);
+    width: 970px;
+    height: 558px; 
+    position: relative;
+    top: 10px;
+    left: -100px;
+  }
+
+  #escenario p{
+    position: absolute;
+    top: 21px;
+    font-style: italic;
+    color: #000000;
+  }
+
+  #escenario img{
+    vertical-align: middle;
+     position: absolute;
+    top: 26px;
+    left: 555px;
+  }
+
+/*--------------------------
+* CAPA CONTENIDO GENERAL
+---------------------------*/
+
+#contenidoGeneral{
+    width: 97.4%;
+    height: 467px;
+    background: white;
+    margin: 20px 13px 35px;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*OTRAS PESTAÑAS*/
+/* ==TABS TO THE RIGHT OF ME== */
+/*
+.tab-body-container {
+  position: relative;
+  margin-top: -14px;
+  padding: 0px;
+  height: 800px;
+}
+
+.tab-group {
+  list-style: none;
+height: 34px;
+margin-bottom: 0px !important;
+position: relative;
+right: 0;
+
+}
+
+.tab-group li {
+  float: right;
+display: inline-block;
+padding: 3px 17px;
+color: #FFF;
+cursor: pointer;
+background: #808285;
+margin-right: 0px;
+border-right: 1px solid #c0c3c8;
+margin: -11px 2px;
+border-radius: 5px 5px 0px 0px;
+width: 44px;
+font-weight: bold;
+}
+
+.tab-current {
+  background: #3e7898 !important;
+}
+
+.tab-group li:first-child {
+  border-right: 0px !important;
+}
+
+.body-group {
+      background: #FFF;
+    margin: -10px;
+    padding: 0px;
+    width: 947px;
+    height: 465px;
+    margin-left: 10px;
+    border-radius: 5px 0px 5px 5px;
+}
+
+.body-group li {
+  list-style: none;
+  display: none;
+  position: relative;
+  padding: 15px;
+}
+
+/* ==TABS TO THE LEFT OF ME== */
+/*
+.tab-body-container-secondary .tab-group {
+  padding: 0px;
+}
+
+.tab-body-container-secondary .tab-group li {
+  float: left;
+  background: #b4c4d4;
+  border-right: 1px solid #dde8f3;
+}
+
+.tab-body-container-secondary .tab-group li:first-child {
+  border-right: 1px solid #dde8f3 !important;
+}
+
+.tab-body-container-secondary .tab-group li:last-child {
+  border-right: 0px !important;
+}
+
+.tab-body-container-secondary .body-group {
+  background: #e7e8e9 !important;
+}
+
+.white-bgk {
+  background: #FFF;
+  margin: -15px -15px;
+  padding: 10px 4px;
+}*/
+
+/*--------------------------------
+* IMAGEN DE INDICACION - PESTAÑAS
+----------------------------------*/
+
+#iPestaña {
+  margin: -5px -237px;
+}
+
+/*--------------------------
+* TEMA 2 - PESTAÑAS
+---------------------------*/
+.menu__tabs {
+  list-style: none;
+  overflow: hidden;
+  margin-right: -3px;
+}
+
+.menu__tabs li {
+  float: right;
+  margin-right: -10px;
+  font-size: 1.2em;
+}
+
+.menu__tabs a {
+  padding: 0px 18px;
+  background: #5d626d;
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.menu__tabs a:hover {
+  background: #515a68;
+}
+
+.menu__tabs a.active {
+  color: #333b48;
+  background: #FFF;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.menu__tabs a.active i {color: #80cbb7;}
+.menu__tabs a i {
+  margin-right: 3px;
+  color: #aaaaaa;
+}
+
+/*--------------------------
+* MENU WRAPPER
+---------------------------*/
+.menu {
+  margin: -31px auto;
+  width: 942px;
+  max-width: 950px;
+  position: relative;
+  height: 800px;
+}
+
+.menu__wrapper {
+  position: relative;
+  z-index: 400;
+  background: #FFF;
+  min-height: 300px;
+  -webkit-border-radius: 5px 0 5px 5px;
+  -moz-border-radius: 5px 0 5px 5px;
+  border-radius: 5px 0 5px 5px;
+  top: -26px;
+  height: 466px;
+}
+
+.menu--shadow {
+  position: absolute;
+  z-index: 300;
+  bottom: -5px;
+  height: 25px;
+  width: 100%;
+}
+
+.menu--shadow:after,
+.menu--shadow:before {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  background: rgba(0,0,0,0.2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
+  -webkit-transform: scale(0.8) rotate(-4deg);
+  -ms-transform: scale(0.8) rotate(-4deg);
+  -o-transform: scale(0.8) rotate(-4deg);
+  transform: scale(0.8) rotate(-4deg);
+}
+
+.menu--shadow:after {
+  right: 0;
+  left: auto;
+  -webkit-transform: scale(0.8) rotate(4deg);
+  -ms-transform: scale(0.8) rotate(4deg);
+  -o-transform: scale(0.8) rotate(4deg);
+  transform: scale(0.8) rotate(4deg);
+}
+
+.menu__wrapper .menu__item {
+  line-height: 1.3;
+  color: #76716f;
+  display: none;
+  height: 470px;
+}
+
+.menu__wrapper .menu__item.item-active {
+  display: block;
+  height: 470px;
+}
+
+.menu__wrapper .menu__item h3 {
+  font-size: 1.8em;
+  color: #333b48;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+
+.menu__wrapper .menu__item p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #76716f;
+  margin-top: 40px;
+}
+
+/*--------------------------
+* PESTAÑA 1
+---------------------------*/
+
+
+
+/*-----------------------------
+*  PESTAÑA 2 
+-------------------------------*/
+
+
+
+
+
