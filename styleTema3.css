@@ -328,143 +328,86 @@ font-weight: bold;
 }
 
 /*--------------------------
-* TEMA 2 - PESTAÑAS
+* TEMA 3 - PESTAÑAS
 ---------------------------*/
-.menu__tabs {
+
+#tabs {
+  width: 945px;
+  margin: -15px auto;
+  height: 510px;
+}
+
+#tabs-nav {
   list-style: none;
-  overflow: hidden;
-  margin-right: -3px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgba(235,30, 0, 1);
+  overflow: auto;
 }
 
-.menu__tabs li {
+#tabs-nav li {
   float: right;
-  margin-right: -10px;
-  font-size: 1.2em;
-}
-
-.menu__tabs a {
-  padding: 0px 18px;
-  background: #5d626d;
-  display: inline-block;
-  color: #FFF;
-  text-decoration: none;
-  -webkit-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
-  border-radius: 10px 10px 0 0;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-  -moz-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-  box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
-  font-weight: bold;
   font-size: 19px;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 0px 15px;
+  border: 3px solid rgba(235,30, 0, 1);
+  border-bottom:none;
+  cursor:pointer;
+  border-radius: 10px 10px 0px 0px;
+  }
+
+#tabs-nav li:hover {
+  background-color: #FF6A6A;
+  color: #000000;
 }
 
-.menu__tabs a:hover {
-  background: #515a68;
+li.active {
+  background-color: white;
+  color: #000000;
 }
 
-.menu__tabs a.active {
-  color: #333b48;
-  background: #FFF;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+.contentt {
+  padding: 10px;
+  border-top: none;
+  border: 3px solid rgba(235,30, 0, 1);
+  height: 468px;
+  background: white;
+  border-radius: 0px 0px 5px 5px;
 }
 
-.menu__tabs a.active i {color: #80cbb7;}
-.menu__tabs a i {
-  margin-right: 3px;
-  color: #aaaaaa;
+#tabs-nav a {
+  text-decoration: none;
+ }
+
+.pestaña1 {
+  background-color: rgba(235,30, 0, 1);
+  color: white;
 }
 
-/*--------------------------
-* MENU WRAPPER
----------------------------*/
-.menu {
-  margin: -31px auto;
-  width: 942px;
-  max-width: 950px;
-  position: relative;
-  height: 800px;
+.pestaña2 {
+  background-color: rgba(235,30, 0, 1);
+  color: white;
 }
 
-.menu__wrapper {
-  position: relative;
-  z-index: 400;
-  background: #FFF;
-  min-height: 300px;
-  -webkit-border-radius: 5px 0 5px 5px;
-  -moz-border-radius: 5px 0 5px 5px;
-  border-radius: 5px 0 5px 5px;
-  top: -26px;
-  height: 466px;
+.pestaña3 {
+  background-color: rgba(235,30, 0, 1);
+  color: white;
 }
 
-.menu--shadow {
-  position: absolute;
-  z-index: 300;
-  bottom: -5px;
-  height: 25px;
-  width: 100%;
+.pestaña4 {
+  background-color: rgba(235,30, 0, 1);
+  color: white;
 }
 
-.menu--shadow:after,
-.menu--shadow:before {
-  content: '';
-  display: block;
-  width: 50%;
-  height: 25px;
-  position: absolute;
-  left: 0;
-  background: rgba(0,0,0,0.2);
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
-  -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
-  box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
-  -webkit-transform: scale(0.8) rotate(-4deg);
-  -ms-transform: scale(0.8) rotate(-4deg);
-  -o-transform: scale(0.8) rotate(-4deg);
-  transform: scale(0.8) rotate(-4deg);
+.pestaña5 {
+  background-color: rgba(235,30, 0, 1);
+  color: white;
 }
 
-.menu--shadow:after {
-  right: 0;
-  left: auto;
-  -webkit-transform: scale(0.8) rotate(4deg);
-  -ms-transform: scale(0.8) rotate(4deg);
-  -o-transform: scale(0.8) rotate(4deg);
-  transform: scale(0.8) rotate(4deg);
-}
 
-.menu__wrapper .menu__item {
-  line-height: 1.3;
-  color: #76716f;
-  display: none;
-  height: 470px;
-}
 
-.menu__wrapper .menu__item.item-active {
-  display: block;
-  height: 470px;
-}
 
-.menu__wrapper .menu__item h3 {
-  font-size: 1.8em;
-  color: #333b48;
-  padding-bottom: 5px;
-  margin-bottom: 0px;
-}
-
-.menu__wrapper .menu__item p {
-  font-size: 1.3em;
-  line-height: 1.6em;
-  color: #76716f;
-  margin-top: 40px;
-}
 
 /*--------------------------
 * PESTAÑA 1

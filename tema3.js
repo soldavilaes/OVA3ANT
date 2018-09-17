@@ -49,21 +49,23 @@ function getUrlVars() { //this function parses out GET vars from URL
 }*/
 
 /*--------------------------
-* TEMA 2 - PESTAÑAS
+* TEMA 3 - PESTAÑAS
 ---------------------------*/
 
-$(function() {
 
-  // Menu Tabular
-  var $menu_tabs = $('.menu__tabs li a'); 
-  $menu_tabs.on('click', function(e) {
-    e.preventDefault();
-    $menu_tabs.removeClass('active');
-    $(this).addClass('active');
+// show first content by default
+$('#tabs-nav li:last-child').addClass('active');
+$('.contentt').hide();
+$('.contentt:first').show();
 
-    $('.menu__item').fadeOut(300);
-    $(this.hash).delay(300).fadeIn();
-  });
-
+// click function
+$('#tabs-nav li').click(function(){
+  $('#tabs-nav li').removeClass('active');
+  $(this).addClass('active');
+  $('.contentt').hide();
+  
+  var activeTab = $(this).find('a').attr('href');
+  $(activeTab).fadeIn();
+  return false;
+  
 });
-
