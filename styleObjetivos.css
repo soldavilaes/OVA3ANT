@@ -165,87 +165,80 @@ h4{
   border-radius: 5px;
 }
 
-/* OTRA FORMA CAJAS DE TEXTO DE LOS OBJETIVOS */
-/*
-.snip1579 {
-  font-family: 'Lato', Arial, sans-serif;
-  position: relative;
-  display: inline-block;
-  margin: 8px;
-  min-width: 250px;
-  max-width: 310px;
-  width: 100%;
-  background-color: #000000;
-  color: #ffffff;
-  text-align: left;
-  font-size: 16px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+/****OBJETIVOS*******/
+
+.box-wrap1{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.box1{
+  padding:30px;
+  margin:3%;
+  background:#6BBAC1;
+  width: 700px;
+  border:4px solid #ED8256;
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  border-radius:3px;
+  transition:.2s all; 
+  height: 410px;
+}
+.box-wrap1:hover .box1{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+.box-wrap1:hover .box1:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+#obj{
+  margin: -20px -465px;
+}
+#objetiv {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: Sansita;
+  height: 0px;
+  font-size: 25px;
+  margin: 270px -10px;
+  text-align: justify;
+  margin-right: 20px;
+  line-height: 30px;
 }
 
-.snip1579 * {
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+#objetiv span {
+  font-style: normal;
 }
 
-.snip1579 img {
-  max-width: 100%;
-  vertical-align: top;
-  margin-left: -555px;
+.ContenText{
+  margin: 20px auto;
 }
 
-.snip1579 figcaption {
-  position: absolute;
-  height: 75px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-  overflow: hidden;
-  padding: 15px;
-  background-color: rgba(0, 0, 0, 0.75);
- margin: -240px auto;
+.ContenText h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 320px 130px;
+display: block;
+z-index: 999;
+font-family: "Homer Simpson", cursive;
+font-size: 30px;
+color: #27283D;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
 }
-
-.snip1579 p {
-  margin-top: 45px;
-}
-
-.snip1579 h3 {
-  font-family: 'Oswald';
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 3px 0;
-}
-
-.snip1579 h5 {
-  font-weight: 400;
-  margin: -20px -4px;
-  text-transform: uppercase;
-  color: #bbb;
-  letter-spacing: 1px;
-}
-
-.snip1579 blockquote {
-  padding: 0;
-  margin: 0;
-  font-style: italic;
-  font-size: 1em;
-}
-
-.snip1579 a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.snip1579:hover figcaption,
-.snip1579.hover figcaption {
-  height: calc(185px);
-}*/
-
-/* CAJA OBJETIVOS*/
