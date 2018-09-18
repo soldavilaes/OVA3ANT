@@ -407,12 +407,161 @@ li.active {
 
 
 
-
-
 /*--------------------------
-* PESTAÑA 1
+* PESTAÑA 1 de aqui
 ---------------------------*/
+.containerss{
+  width: 100%;
 
+margin: 27px auto;
+
+height: 421px;
+
+position: relative;
+
+background-color: white;
+
+border-radius: 10px;
+
+padding: 20px;
+}
+.view{
+width: 932px;
+
+height: 434px;
+
+margin: -34px -19px;
+
+position: relative;
+
+overflow: hidden;
+
+border-radius: 10px;
+}
+ul.slider{
+  height: 100%;
+}
+ul.slider li{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+ul.slider li:nth-child(1){
+  background-color: #FFFFE0;
+  left: -10px;
+}
+ul.slider li:nth-child(2){
+  background-color: #e67e22;
+  left: -10px;
+}
+ul.slider li:nth-child(3){
+  background-color: #2ecc71;
+  left: -10px;
+}
+ul.slider li:nth-child(4){
+  background-color: #4aa3df;
+  left: -10px;
+}
+ul.slider li:nth-child(5){
+  background-color: #9b59b6;
+  left: -10px;
+}
+ul.slider li h3{
+display: block;
+
+position: absolute;
+
+top: 10px;
+
+right: 400px;
+
+padding: 4px 10px;
+
+
+font-size: 20px;
+
+color: #000000;
+
+background-color: rgba(0, 0, 0, 0.2);
+
+border-radius: 10px;
+
+font-family: 'Open Sans', sans-serif;
+text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+}
+.prev, .next{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+.prev{
+  left: 2px;
+}
+.next{
+  right: 2px; 
+}
+.prev a, .next a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+.prev a:hover, .next a:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.fa.fa-arrow-circle-left,   .fa.fa-arrow-circle-right {
+  color: #5E6269;;
+  font-size: 38px;
+}
+.controls{
+  position: absolute;
+
+bottom: 0px;
+
+width: 100%;
+
+background-color: rgba(0, 0, 0, 0.4);
+
+height: 25px;
+}
+ul.cont-list{
+  padding-left: 20px;
+
+margin: 6px;
+
+text-align: center;
+}
+ul.cont-list li{
+  display: inline-block;
+
+margin: 0px;
+
+
+margin-top: -40px;
+}
+ul.cont-list li span{
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+ul.cont-list li.activeSl span{
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+}
+
+
+#subPerdida {
+  margin: -25px -555px;
+}
 
 
 /*-----------------------------
@@ -420,6 +569,359 @@ li.active {
 -------------------------------*/
 
 
+.wrapper{
+    width: 960px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0 100px;
+}
+#header{
+    width: 100%;
+    background:url(img/bkg_header.png) repeat-x;
+}
+.header_content{
+    width: 1000px;
+    height: 125px;
+    margin: auto;
+}
+.set_item{
+    width: 400px;
+    float: left;
+}
+ 
+.shk_bundle{
+    position: fixed;
+    right:0;
+    bottom: 10px;
+}
+.shk_bundle a{
+    outline: none;
+}
+.clear{
+    clear:both;
+}
+#footer{
+    width: 100%;
+    background: url(img/bkg_footer.png);
+}
+.footer_content{
+    height: 155px;
+    width: 1000px;
+    margin: auto;
+}
 
+/*** end general page ***/
+
+/*** BOX 1 ***/
+/* This establishes the design of the boxes' paragraphs */
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p, .box6 p, .box7 p, .box9 p, .box10 p, .box11 p, .box12 p, .box13 p, .box14 p, .box15 p, .box16 p{
+margin: 30px;
+color: #aaa;
+outline: none;
+}
+
+
+/*** BOX 2 ***/
+/* This is the second selector of the box, we assign some specific measure values, background colors, borders and shadows */
+.box2{
+    margin: 55px 55px;
+
+width: 815px;
+
+min-height: 70px;
+
+padding: 0 0 1px 0;
+
+position: relative;
+    background: #f3f3f3;
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#f3f3f3), to(#fff), color-stop(.1,#f3f3f3));
+   background: linear-gradient(to top, #ffff66 0%, #ffffcc 100%);
+
+border-top: 2px solid #ffff00;
+
+border-right: 2px solid #ffff00;
+    -webkit-border-bottom-right-radius: 60px 60px;
+    -moz-border-radius-bottomright: 60px 60px;
+    border-bottom-right-radius: 60px 60px;
+    -webkit-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -4px 3px 3px rgba(0, 0, 0, 0.7);
+ 
+}
+.box2:before{
+    content:'';
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    -webkit-border-bottom-right-radius: 30px;
+    -moz-border-radius-bottomright: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow:-2px -2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform:  rotate(-20deg)
+                        skew(-40deg,-3deg)
+                        translate(-13px,-13px);
+    -moz-transform: rotate(-20deg)
+                    skew(-40deg,-3deg)
+                    translate(-13px,-13px);
+    -o-transform:   rotate(-20deg)
+                    skew(-40deg,-3deg)
+                    translate(-13px,-13px);
+                    transform:
+                    rotate(-20deg)
+                    skew(-40deg,-3deg)
+                    translate(-13px,-13px);
+}
+ 
+/* Here's where we make the shading of the folds*/
+.box2:after{
+    content: '';
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 20px 20px 18px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 8px rgba()0,0,0,0.2;
+    -webkit-transform: rotate(0deg)
+                        translate(-45px,-20px)
+                        skew(20deg);
+    -moz-transform: rotate(0deg)
+                    translate(-45px,-20px)
+                       skew(20deg);
+    -o-transform: rotate(0deg)
+                    translate(-45px,-20px)
+                       skew(20deg);
+    transform: rotate(0deg)
+                translate(-45px,-20px)
+                skew(20deg);
+}
+/*** END BOX 2 ***/
+
+#defPerdida {
+  margin: -15px 10px;
+
+font-family: 'Open-sans', sans-serif;
+
+line-height: 1.1;
+
+font-size: 20px;
+}
+
+
+.achievement {
+   width: 64px;
+    height: 64px;
+    background: linear-gradient(to left, #99cc00 0%, #ccff33 100%);
+    border-radius: 32px;
+  
+    -webkit-transition:width 1s;
+    transition: width 1s;
+  position: absolute;
+    margin-left: 50px;
+
+margin-top: -115px;
+}
+/* width then its slided out */
+.achievement.out {
+ width: 820px;
+
+
+}
+/* The dark circle */
+.circle {
+    background: #1a1a1a;
+    width: 58px;
+    height: 58px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 30px;
+}
+/* the quarter circles around the logo */
+.circle span:not(.logo) {
+    display: block;
+    width: 25px; 
+    height: 25px;
+    position: absolute;
+    background-color: #494949;
+    left: 3px;
+    top: 3px;
+}
+.circle span:nth-child(1) {
+    border-radius: 25px 0 0 0;
+    -moz-border-radius: 25px 0 0 0;
+    -webkit-border-radius: 25px 0 0 0;
+    background-color: #75aa1e; /* make the bar green */
+}
+.circle span:nth-child(2) {
+    border-radius: 0px 25px 0 0;
+    -moz-border-radius: 0 25px 0 0;
+    -webkit-border-radius: 0 25px 0 0;
+    left: 30px;
+}
+.circle span:nth-child(3) {
+    border-radius: 0 0 25px 0;
+    -moz-border-radius: 0 0 25px 0;
+    -webkit-border-radius: 0 0 25px 0;
+    left: 30px;
+    top: 30px;
+}
+.circle span:nth-child(4) {
+    border-radius: 0 0 0 25px;
+    -moz-border-radius: 0 0 0 25px;
+    -webkit-border-radius: 0 0 0 25px;
+    top: 30px;
+}
+/* The logo in the middle of the circle */
+.logo {
+    left: 12px;
+    top: 12px;
+    background-image: url("https://i.imgur.com/epUbaYQ.png");
+    background-size: 30px;
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #161616;
+    border-radius: 30px;
+}
+/* The achievement text */
+.text {
+  position: absolute;
+
+left: 75px;
+
+color: #000000;
+
+font-family: Sansita;
+
+font-size: 22px;
+
+white-space: nowrap;
+
+width: 710px;
+
+line-height: 1;
+
+top: 10px;
+}
+
+#image {
+  width: 130px;
+
+margin-left: 50px;
+
+margin-top: -40px;
+}
+
+@keyframes bulb-fill {
+  from {
+    fill: #aaa;
+  }
+  to {
+    fill: #ffbd25;
+  }
+}
+#bulb {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-name: bulb-fill;
+  fill: #aaa;
+}
+
+#base {
+  fill: #19485d;
+}
+
+@keyframes ray-fill {
+  from {
+    fill: #fff;
+  }
+  to {
+    fill: #ffbd25;
+  }
+}
+.ray {
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-name: ray-fill;
+  fill: #fff;
+}
+
+#Ray_1 {
+  animation-delay: calc(0.3s + 0.1s * 1);
+}
+
+#Ray_2 {
+  animation-delay: calc(0.3s + 0.1s * 2);
+}
+
+#Ray_3 {
+  animation-delay: calc(0.3s + 0.1s * 3);
+}
+
+#Ray_4 {
+  animation-delay: calc(0.3s + 0.1s * 4);
+}
+
+#Ray_5 {
+  animation-delay: calc(0.3s + 0.1s * 5);
+}
+
+
+
+.caja2 {
+  padding: 1rem;
+
+background-color: #fff;
+
+text-align: justify;
+
+line-height: 1;
+
+font-family: 'Open Sans', sans-serif;
+
+color: #000000;
+
+font-size: 20px;
+}
+
+.box-wrap {
+  display: inline-block;
+  width: 73%;
+  padding: 5px;
+  background-image: -webkit-linear-gradient(left, #09f, #6c3, #c33, #6c3, #09f);
+  background-image: -moz-linear-gradient(left, #09f, #6c3, #c33, #6c3, #09f);
+  background-image: -ms-linear-gradient(left, #09f, #6c3, #c33, #6c3, #09f);
+  background-image: linear-gradient(left, #09f, #6c3, #c33, #6c3, #09f);
+  border: 1px solid #666;
+  box-shadow: 0 0 5px #333;
+}
+
+
+
+#wrap {
+ box-sizing: border-box;
+
+display: table-cell;
+
+vertical-align: middle;
+top: -137px;
+left: 200px;
+}
+
+
+/*--------------------------
+* hasta aqui
+---------------------------*/
 
 
