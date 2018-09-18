@@ -130,3 +130,31 @@ setTimeout(function(){
     var audio = new Audio('https://centracomm.cachefly.net/majornelson/2007/Achievement-mp3-sound.mp3');
     audio.play();
 }, 1000);
+
+/*-----------------------------
+* PESTAÑA 4 - ITEM 1 - NUMEROS 
+-------------------------------*/
+
+  $('.button1').click(function(){    
+  $("#contentt").toggleClass("display");
+});
+
+$('.button1').click(function(){    
+  $(this).toggleClass("buttonDisplay");
+});
+
+    $('.button2').click(function(){    
+  $("#contentt2").toggleClass("display2");
+});
+
+$('.button2').click(function(){    
+  $(this).toggleClass("buttonDisplay2");
+});
+
+   $('.button3').click(function(){    
+  $("#contentt3").toggleClass("display3");
+});
+
+$('.button3').click(function(){    
+  $(this).toggleClass("buttonDisplay3");
+});
