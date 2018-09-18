@@ -127,6 +127,6 @@ setTimeout(function(){
   //popout
   document.getElementsByClassName("achievement")[0].className = "achievement out";
   //play the sound (not sure about the timing)
-   /* var audio = new Audio('https://centracomm.cachefly.net/majornelson/2007/Achievement-mp3-sound.mp3');
-    audio.play();*/
+    var audio = new Audio('https://centracomm.cachefly.net/majornelson/2007/Achievement-mp3-sound.mp3');
+    audio.play();
 }, 1000);
