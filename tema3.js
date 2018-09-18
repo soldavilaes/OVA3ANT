@@ -69,3 +69,66 @@ $('#tabs-nav li').click(function(){
   return false;
   
 });
+
+/*--------------------------
+* TEMA 3 - SLIDER PESTAÑA 1
+---------------------------*/
+
+$(document).ready(function (){
+  var $slides = $('.slider').find('li');
+  var $view = $('.slider');
+  var current = 0;
+  var $contList = $('.cont-list');
+  var $controls = $contList.find('li');
+
+  var $prev = $('.prev');
+  var $next = $('.next');
+
+  $slides.each(function (i){
+    $(this).css({transform: 'translate(' + i*100 + '%, 0%)'});
+  });
+  function move(pos){
+    $controls.removeClass('activeSl').eq(pos).addClass('activeSl');
+    $view.animate({  view: (100*pos) }, {
+      step: function(now) {
+        $(this).css('transform','translate(-' + now + '%, 0%)');  
+      },
+      duration:'slow'
+    },'linear');
+  }
+  $next.on('click', function (e){
+    e.preventDefault();
+    if(current >= $slides.length-1 || $view.is(':animated')){return false;}
+    current ++;
+    move(current);
+  });
+  $prev.on('click', function (e){
+    e.preventDefault();
+    if(current <= 0 || $view.is(':animated')){return  false;}
+    current --;
+    move(current);
+  });
+  $controls.on('click',function (e){
+    e.preventDefault();
+    if($view.is(':animated')){return  false;}
+    current = $(this).index();
+    move(current);
+  }); 
+});
+
+
+/*--------------------------
+* NOTIFICACIÓN PESTAÑA 1
+---------------------------*/
+
+//so it runs after 1 second or 1000 ms
+setTimeout(function(){
+  //popout
+  document.getElementsByClassName("achievement")[0].className = "achievement out";
+  //play the sound (not sure about the timing)
+   /* var audio = new Audio('https://centracomm.cachefly.net/majornelson/2007/Achievement-mp3-sound.mp3');
+    audio.play();*/
+}, 1000);
+
+
+
