@@ -882,14 +882,22 @@ font-size: 20px;
 *  ITEM 2 
 -------------------------------*/
 
-#enunEj {
-  margin: 35px 40px;
+#enunciadoEj1 span {
+
+  margin-top: 100px;
+  font-style: normal;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
-#enunEj span {
+#enunciadoEj1 {
+  top: -45px;
+  margin-left: 45px;
+  margin-top: 100px;
   font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #000000;
 }
 
 #rectaEj {
