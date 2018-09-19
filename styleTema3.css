@@ -442,7 +442,7 @@ ul.slider li:nth-child(1){
 }
 
 ul.slider li:nth-child(2){
-  background-color: #e67e22;
+  background-color: #FFE4C4;
   left: -10px;
 }
 
@@ -878,6 +878,37 @@ font-size: 20px;
   left: 195px;
 }
 
+/*-----------------------------
+*  ITEM 2 
+-------------------------------*/
+
+#enunEj {
+  margin: 35px 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+#enunEj span {
+  font-style: normal;
+}
+
+#rectaEj {
+  margin: 70px -410px;
+}
+
+#enunEj2 {
+  margin: 170px 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+#enunEj2 span {
+  font-style: normal;
+}
+
+#dAbsolutas {
+  margin: 220px -410px
+}
 /*-----------------------------
 *  PESTAÑA 4 
 -------------------------------*/
