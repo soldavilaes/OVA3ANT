@@ -1076,7 +1076,7 @@ figure figcaption::after {
     background-color: white;
     display: inline;
     float: left;
-    height: 18.75em;
+    height: 200px;
     width: 20%;
     background: #ffdab9;
     border-radius: 10px;
@@ -1459,7 +1459,7 @@ margin-top: -20px;
 font-size: 27px;
 font-weight: bold;
 margin-left: 20px;
-margin-top: -10px;
+margin-top: -20px;
 }
 
 #subtitulo2 span {
@@ -1469,8 +1469,32 @@ margin-top: -10px;
 #invertir
 {
   margin:30px -240px;
-  
-  
+}
+
+#text1
+{
+  margin:40px -3px;
+  font-family: sansita;
+  font-size: 20px;
+
+}
+
+#text1 span{
+    font-style: normal;
+}
+
+#text2
+{
+      margin: -20px -20px;
+        margin-right: -20px;
+    font-family: sansita;
+    font-size: 20px;
+    margin-right: 5px;
+    line-height: 23px;
+}
+
+#text2 span{
+    font-style: normal;
 }
 
 .i5 {
@@ -1536,7 +1560,7 @@ margin-left: 10px;
   overflow: hidden; 
   white-space: nowrap; 
   position: absolute;
-  margin: 290px 20px;
+  margin: 310px 20px;
   z-index: 10;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -1558,7 +1582,7 @@ margin-left: 10px;
   overflow: hidden; 
   white-space: nowrap; 
   position: absolute;
-  margin: 250px 140px;
+  margin: 270px 140px;
   z-index: 10;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -1576,13 +1600,149 @@ transform: scale(1.2);
 }
 
 #suma1{
- margin: 70px -525px;
+ margin: 100px -525px;
 height: 180px;
 }
 
 #sumaA{
 
-margin: 70px -207px;
+margin: 100px -207px;
 height: 180px;
 
+}
+
+.evidence-description2 {
+  border-radius: 10px;
+  color:#000000;
+  background-color: #ffb219;
+  font-family: sansita;
+  width: 255px;
+  padding: 8px 16px;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden; 
+  white-space: nowrap; 
+  position: absolute;
+  margin: 40px 20px;
+  z-index: 10;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.evidence-description2:hover {
+  white-space: inherit;
+}
+
+
+.evidence-description3 {
+  border-radius: 10px;
+  color:#000000;
+  background-color: #ffb219;
+  font-family: sansita;
+  width: 255px;
+  padding: 8px 16px;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden; 
+  white-space: nowrap; 
+  position: absolute;
+  margin: 268px 180px;
+  z-index: 10;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.evidence-description3:hover {
+  white-space: inherit;
+}
+
+.item3 {
+  width: 240px;
+  display:block; 
+  position: initial;
+  margin: -228px  auto;
+}
+
+#sl{
+  margin: 90px -540px;
+}
+
+#sl1{
+  margin: 90px -160px;
+}
+
+.evidence-description4 {
+  color:#000000;
+  background-color: #f7a57a;
+  font-family: sansita;
+  width: 320px;
+  padding: 8px 16px;
+  text-overflow: ellipsis;
+  text-align: justify;
+  line-height: 15px;
+  overflow: hidden; 
+  white-space: nowrap; 
+  position: absolute;
+  margin: 288px 160px;
+  z-index: 10;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.evidence-description4:hover {
+  white-space: inherit;
+}
+
+.item4 {
+  width: 300px;
+  display:block; 
+  position: initial;
+  margin: 390px -170px;
+}
+
+.evidence-description5 {
+  line-height: 15px;
+  color:#000000;
+  background-color:  #f7a57a;
+  font-family: sansita;
+  width: 320px;
+  padding: 8px 16px;
+  text-overflow: ellipsis;
+  text-align: justify;
+  line-height: 15px;
+  overflow: hidden; 
+  white-space: nowrap; 
+  position: absolute;
+  margin: -102px 540px;
+  z-index: 10;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.evidence-description5:hover {
+  white-space: inherit;
+}
+
+.item5 {
+  width: 300px;
+  display:block; 
+  position: initial;
+  margin: 390px -170px;
+}
+
+#text3
+{
+      margin: 290px -20px;
+    font-family: sansita;
+    font-size: 20px;
+margin-right: 5px;
+line-height: 20px;;
+}
+
+#text3 span{
+    font-style: normal;
 }
