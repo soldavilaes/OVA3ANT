@@ -1303,15 +1303,31 @@ margin-right: 10px;
   padding-bottom: 0em;
   color: #000000;
   font-family: 'Open Sans', sans-serif;
-  text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+  text-shadow: 0 0 0.2em #3F48CC, 0 0 0.2em #3F48CC;
   height: 0px;
 font-size: 25px;
 font-weight: bold;
-margin-left: 200px;
+margin-left: 180px;
 margin-top: -20px;
 }
 
 #subtitulo1 span {
+    font-style: normal;
+  }
+
+#subtitulo2 {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: sansita;
+  text-shadow: 0 0 0.2em #a1ee33, 0 0 0.2em #a1ee33;
+  height: 0px;
+font-size: 27px;
+font-weight: bold;
+margin-left: 20px;
+margin-top: -10px;
+}
+
+#subtitulo2 span {
     font-style: normal;
   }
 
@@ -1360,4 +1376,78 @@ margin-left: 10px;
   font-family: 'Open Sans', Sans-serif;
   color: #000000;
   background: linear-gradient(to top, #F5D13E 0%, #ffffff 100%);
+}
+
+.item1 {
+  width: 240px;
+  display:block; 
+  position: initial;
+}
+
+.item2 {
+  width: 240px;
+  display:block; 
+  position: initial;
+  margin: 40px auto;
+}
+.evidence-description {
+  color:#000000;
+  background-color: #a1ee33;
+  font-family: sansita;
+  width: 255px;
+  padding: 8px 16px;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden; 
+  white-space: nowrap; 
+  position: absolute;
+  margin: 290px 20px;
+  z-index: 10;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.evidence-description:hover {
+  white-space: inherit;
+}
+
+.evidence-description1 {
+  color:#000000;
+  background-color: #a1ee33;
+  font-family: sansita;
+  width: 255px;
+  padding: 8px 16px;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden; 
+  white-space: nowrap; 
+  position: absolute;
+  margin: 250px 140px;
+  z-index: 10;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.evidence-description1:hover {
+  white-space: inherit;
+}
+.grow:hover
+{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+#suma1{
+ margin: 70px -525px;
+height: 180px;
+}
+
+#sumaA{
+
+margin: 70px -207px;
+height: 180px;
+
 }
