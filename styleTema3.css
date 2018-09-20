@@ -447,7 +447,7 @@ ul.slider li:nth-child(2){
 }
 
 ul.slider li:nth-child(3){
-  background-color: #2ecc71;
+  background-color: #FFF9C4;
   left: -10px;
 }
 
@@ -878,18 +878,26 @@ font-size: 20px;
   left: 195px;
 }
 
-/*-----------------------------
+//*-----------------------------
 *  ITEM 2 
 -------------------------------*/
 
-#enunEj {
-  margin: 35px 40px;
+#enunciadoEj1 span {
+
+  margin-top: 100px;
+  font-style: normal;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
-#enunEj span {
+#enunciadoEj1 {
+  top: -45px;
+  margin-left: 45px;
+  margin-top: 100px;
   font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #000000;
 }
 
 #rectaEj {
@@ -909,6 +917,133 @@ font-size: 20px;
 #dAbsolutas {
   margin: 220px -410px
 }
+
+/* GRAFICO */
+
+figure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+figure {
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+  width: 250px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+
+}
+
+#pensante {
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 10px solid #00b3b3;
+  width: 180px;
+  height: 230px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  box-shadow: 0 0 0 4px #0c4842, 0 0 14px 4px #21ccbb, 0 0 14px 6px white;
+  margin-left: -235px;
+}
+
+figure figcaption {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+  z-index: 2;
+  -webkit-transform: translate(-75%, -50%);
+  transform: translate(-75%, -50%);
+  background: linear-gradient(to right, #ffff66 0%, #66ffff 100%);
+  color: black;
+  padding: 6px;
+  border-radius: 30px;
+  border: 4px solid black;
+  font-weight: 500;
+  width: 670px;
+  line-height: 1;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+figure figcaption::before {
+  position: absolute;
+  top: calc(100% - 24px);
+  left: calc(100% + 5px);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 50px solid black;
+  content: '';
+}
+
+figure figcaption::after {
+  position: absolute;
+  top: calc(100% - 22px);
+  left: 100%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 40px solid #66ffff;
+  content: '';
+}
+
+/* CAJA CODIGO */
+
+.cajaCodigo {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 620px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  padding: 25px;
+  background-color: #efefef;
+  color: #424242;
+  height: 200px;
+  top: 135px;
+  left: 45px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.7);
+}
+
+.cajaCodigo {
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #48d7d8 10px, white 11px);
+  padding-left: 35px;
+}
+
+.cajaCodigo h1 {
+  color: #000000;
+  font-size: 23px;
+  margin-top: -20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-shadow: 0 0 0.2em #00ffcc, 0 0 0.2em #00ffcc;
+}
+
+.cajaCodigo pre {
+  margin-top: -30px;
+  color: blue;
+  margin-left: -20px;
+}
+
 /*-----------------------------
 *  PESTAÑA 4 
 -------------------------------*/
