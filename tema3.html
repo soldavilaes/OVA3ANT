@@ -108,7 +108,7 @@
                   <img id="dAbsolutas" src="dAbsolutas.gif" />
                 </li>
                  <!-- ITEM 3-->
-                <li><img src="#" alt=""><h3>EJEMPLO 1</h3>
+                <li><img src="#" alt=""><h3>SOLUCIÓN</h3>
                   <figure>
                     <img id="pensante" src="joven.jpg" alt="A beautiful man">
                     <figcaption contenteditable>El diseño de la función que se encarga del cálculo de las distancias absolutas sería una función de procesamiento de listas como en la siguiente plantilla:</figcaption>
@@ -124,16 +124,34 @@
 </div>
                 </li>
                  <!-- ITEM 4-->
-                <li><img src="#" alt=""><h3>slider 4</h3>
-                </li>
-                 <!-- ITEM 5-->
-                <li><img src="#" alt=""><h3>slider 5</h3>
-                </li>
+                <li><img src="#" alt=""><h3>EVALUACIÓN</h3>
+                  <p id="evaluacion"><span>Al realizar una evaluación manualmente de: <b>(rel-2-abs (cons 3 (cons 2 (cons 7 empty))))</b> Se obtendrán los resultados que se muestran en la siguiente imagen:</span></p>
+                  <img id="imgEvaluacion" class="lightbox" src="evaluacion.png" />
+                  <div class="message-box">
+                  <div class="message-content">
+                    <h2 class="success">Explicación...</h2>
+                    <p id="exp"><span>La lista resultante debe tener como primer elemento el <b>3</b> y la evaluación lo demuestra. El segundo elemento debe ser <b>(+ 3 2)</b>, no obstante la segunda instancia de la función no tiene conocimiento que el primer elemento de la lista original es <b>3</b>, por lo tanto existe una <b>pérdida de conocimiento</b>.</span></p>
+                  </div>
+                  <div class="clear"></div>
+                  </div>
+                  <div class="message-shadow"></div>
+                <!-- ACORDEON -->
+                  <div class="b-faq">
+                    <div class="faq__item">
+                      <a href="#" class="faq__title js-faq-title">
+                        <div class="faq__spoiler js-faq-rotate"><span class="faq__symbol ">+</span></div> 
+                        <span class="faq__text">Solución a la Pérdida de Conocimiento</span>
+                      </a>
+                      <div class="faq__content js-faq-content">
+                        <p id="solucionP"><span>Para resolver el problema de la pérdida de conocimiento se deben utilizar <b>acumuladores</b>.</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </li>   
               </ul>
               <div class="controls">
                 <ul class="cont-list">
                   <li class="activeSl"><span></span></li>
-                  <li><span></span></li>
                   <li><span></span></li>
                   <li><span></span></li>
                   <li><span></span></li>
