@@ -1770,6 +1770,27 @@ margin-right: 10px;
   margin:172px -480px;
 }
 
+#tabla
+{
+  margin:225px -510px;
+  box-shadow: 5px 5px 5px #ff66cc;
+  
+}
+
+#valor
+{
+  margin:190px -5px;
+}
+#ej
+{
+  margin:280px 30px;
+}
+#linea
+{
+  margin:65px -60px;
+  box-shadow: 2px 3px 5px #ff66cc;
+}
+
 #subtitulo1 {
   padding-bottom: 0em;
   color: #000000;
@@ -1807,15 +1828,15 @@ margin-top: -20px;
   margin:30px -240px;
 }
 
-#text1
+#te1
 {
-  margin:40px -3px;
-  font-family: sansita;
+  margin:-25px -3px;
+  font-family: 'Sansita';
   font-size: 20px;
 
 }
 
-#text1 span{
+#te1 span{
     font-style: normal;
 }
 
@@ -2081,4 +2102,150 @@ line-height: 20px;;
 
 #text3 span{
     font-style: normal;
+}
+
+#text4
+{
+      margin: -15px -5px;
+    font-family: sansita;
+    font-size: 20px;
+margin-right: 5px;
+line-height: 20px;;
+}
+
+#text4 span{
+    font-style: normal;
+}
+
+.boxes{
+  margin: -5px 15px;
+width: 890px;
+height: 100px;
+line-height: 22px;
+}
+
+.textbox {
+  background: linear-gradient(to top, #66ccff 0%, #ffffff 100%);
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Sansita';
+  position: relative;
+  color: black;
+  width: 890px;
+  height: 80px;
+  margin: -10px -90px;
+  transform: translate(10%,10%);
+  border-top: solid 2px white;
+  transition: all .5s cubic-bezier(0.43, 0.26, 0, 1.87);
+  animation: fromleft 2s 1;
+}
+
+.textbox:hover {
+  background: white;
+  border-top: solid 19px #ff66cc;
+  cursor: pointer;
+  border-radius: 30px 0px;
+  padding-bottom: 60px;
+  color:  #000000;
+}
+
+.ejemploS h1{
+  position: fixed;
+  bottom: 0;
+  margin: 360px 630px;
+  display: block;
+  animation-duration: 3s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  line-height: 100px;
+
+    text-shadow: 0 1px 0 #66ccff,
+                 0 2px 0 #66ccff,
+                 0 3px 0 #66ccff,
+                 0 4px 0 #66ccff,
+                 0 5px 0 #ff66cc,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .6);
+}
+
+.card2 {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  background-color: #ffd2fa;
+  word-wrap: break-word;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #66ccff,
+              0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #66ccff,
+              0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+  height: 125px;
+  left: -80px;
+  font-family: 'Sansita';
+  color: #000000;
+  text-align: justify;
+  font-size: 19px;
+  line-height: 1;
+  margin: -5px 95px;
+width: 450px;
+  border-radius: 10px;
+}
+
+.card2.card-secondary4 {
+  background-color: #e1c0fd;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 
+              0 0.5em 0 -0.25em #e6acc4, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1),
+              0 1em 0 -0.5em #f68a8e, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+.card2 > :last-child {
+  margin-bottom: 0;
+}
+
+#tex{
+margin: 5px auto;
+font-size: 20px;
+line-height: 20px;
+font-family: 'Sansita';
+margin: -10px -10px;
+margin-right: 5px;
+text-align: justify;
+}
+
+#tex span{
+font-style: normal;
+  }
+
+.card3 {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+background-color: #ffd2fa;
+  word-wrap: break-word;
+   box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #66ccff,
+              0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #66ccff,
+              0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+  height: 25px;
+  left: -80px;
+  font-family: 'Sansita';
+  color: #000000;
+  text-align: justify;
+  font-size: 19px;
+  line-height: 1;
+  margin: -60px 595px;
+width: 170px;
+  border-radius: 10px;
+}
+
+.card3.card-secondary5 {
+   box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #66ccff,
+              0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #66ccff,
+              0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+.card3 > :last-child {
+  margin-bottom: 0;
 }
