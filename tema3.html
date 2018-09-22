@@ -54,7 +54,6 @@
     <!-- PESTAÑAS -->      
     <div id="tabs">
       <ul id="tabs-nav">
-        <li class="pestaña5"><a href="#tab5">5</a></li>
         <li class="pestaña4"><a href="#tab4">4</a></li>
         <li class="pestaña3"><a href="#tab3">3</a></li>
         <li class="pestaña2"><a href="#tab2">2</a></li>
@@ -193,12 +192,55 @@
           <img id="ej" src="ej1.gif">
 
         </div>
+        <!--PESTAÑA 3-->
         <div id="tab3" class="contentt">
-          <h2>Third</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sunt doloribus perspiciatis a cum alias adipisci laboriosam quibusdam ipsum eius veritatis asperiores labore quo hic assumenda laudantium excepturi repellendus ullam.</p>
+          <img id="subEj1Acum" src="ej1Acum.png" />
+          <div class="tabuladors">
+            <input id="all" type="radio" name="tab_item" checked>
+            <label class="tab_item" for="all">FUNCIÓN</label>
+            <input id="programming" type="radio" name="tab_item">
+            <label class="tab_item" for="programming">EVALUACIÓN</label>
+            <input id="design" type="radio" name="tab_item">
+            <label class="tab_item" for="design">DEFINICION LOCAL</label>
+            <!-- ITEM 1 -->
+            <div class="tab_content" id="all_content">
+              <p id="tituloEj1"><span>...Otra forma de realizar el ejemplo 1</span></p>
+              <p id="introForma2"><span>El ejemplo de distancias anteriormente desarrollado, ahora se solucionará utilizando el parámetro adicional <b>acum</b>, el cual es un acumulador que resuelve la pérdida de conocimiento.</span></p>
+              <img id="imgFuncion" class="lightbox" src="acum.png">
+              <div class="scoop">
+                <p id="frase"><span>acum representa la distancia acumulada, ya que almacena el valor de las distancias absolutas, el cual se va actualizando durante el procesamiento de la función.</span></p>
+              </div>
+              <div class="scoop1">
+                <p id="frase1"><span>El parámetro acum se inicializa con el valor de cero.</span></p>
+              </div>
+              <div class="area">
+                <div class="toggle">
+                  <div class="icon">
+                    <div class="horizontal"></div>
+                    <div class="vertical"></div>
+                  </div>
+                </div>
+                <div class="bubble"></div>
+                <div class="card">
+                  <div class="card-content">
+                    <p id="conclusion"><span>A partir de esta definición se puede determinar que cuando se hace el llamado recursivo de la función, esta recibe como primer parámetro el resto de la lista y como segundo parámetro la distancia absoluta del punto actual, cuyo cambio depende del primer parámetro de la función rel-2-abs.<span></p>
+                  </div>
+                  <div class="card-more">
+                    <p>></p>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="tab_content" id="programming_content">
+              プログラミングの内容がここに入ります
+            </div>
+            <div class="tab_content" id="design_content">
+              デザインの内容がここに入ります
+            </div>
+          </div>
         </div>
         
-        <div id="tab4" class="contentt">
+          <div id="tab4" class="contentt">
           <img id="diseño" src="diseño.png"/>
           
         
@@ -304,10 +346,7 @@
   </div>
 
 
-        <div id="tab5" class="contentt">
-          <h2>Third</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sunt doloribus perspiciatis a cum alias adipisci laboriosam quibusdam ipsum eius veritatis asperiores labore quo hic assumenda laudantium excepturi repellendus ullam.</p>
-        </div>
+        
       </div> <!-- tabs-content -->
     </div> <!-- Tabs -->
     <script src="tema3.js"></script>
