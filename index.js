@@ -61,6 +61,33 @@ $(document).ready(function(e){
     $('#content').load('tema3.html')
   });
 });
+$(document).ready(function(e){
+  $('#itemObjetivos').on('click', function(){
+    $('#content').load('actividad1.html')
+  });
+});
+$(document).ready(function(e){
+  $('#itemActividad').on('click', function(){
+    $('#content').load('actividad2.html')
+  });
+});
+$(document).ready(function(e){
+  $('#itemTema3').on('click', function(){
+    $('#content').load('actividad3.html')
+  });
+});
+
+$(document).ready(function(e){
+  $('#itemIntro').on('click', function(){
+    $('#content').load('intro.html')
+  });
+});
+
+/* SELECCIONAR ITEM*/
+$('#menu-left li').on('click', function(){
+    $('li').removeClass('activo');
+    $(this).addClass('activo');
+});
 
 $(document).ready(function() {
   $('.has-animation').each(function(index) {
