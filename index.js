@@ -62,17 +62,17 @@ $(document).ready(function(e){
   });
 });
 $(document).ready(function(e){
-  $('#itemObjetivos').on('click', function(){
+  $('#itemActividad1').on('click', function(){
     $('#content').load('actividad1.html')
   });
 });
 $(document).ready(function(e){
-  $('#itemActividad').on('click', function(){
+  $('#itemActividad2').on('click', function(){
     $('#content').load('actividad2.html')
   });
 });
 $(document).ready(function(e){
-  $('#itemTema3').on('click', function(){
+  $('#itemActividad3').on('click', function(){
     $('#content').load('actividad3.html')
   });
 });
