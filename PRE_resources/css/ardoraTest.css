@@ -49,7 +49,7 @@ template{display: none;}
 .ui-corner-all{border-radius:4px;}
 body{background-color:black;}
 #ardoraMain{ font-family:Verdana, Geneva, sans-serif; color: #F0F0F0; padding: 5px; position: relative; border: 3px solid rgba(235,30, 0, 1);
-background: linear-gradient(to bottom, #ffffff 0%, #ccffff 100%);}
+background: linear-gradient(to bottom, #ffffff 0%, #93ffff 100%);}
 #ardoraEnu{ font-size: 12px; position: relative; padding: 5px; margin-bottom: 10px;
 text-align: justify;
 }
