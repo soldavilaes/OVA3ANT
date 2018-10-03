@@ -182,6 +182,7 @@ h4{
   border-radius:3px;
   transition:.2s all; 
   height: 410px;
+  z-index: 0;
 }
 .box-wrap1:hover .box1{
   filter:blur(3px);
@@ -214,31 +215,100 @@ h4{
   font-style: normal;
 }
 
-.ContenText{
-  margin: 20px auto;
-}
 
-.ContenText h1{
+#ContenText{
 position: fixed;
 bottom: 0;
 height: 10px;
-margin: 320px 130px;
+margin: 160px 65px;
 display: block;
-z-index: 999;
 font-family: "Homer Simpson", cursive;
 font-size: 30px;
 color: #27283D;
+font-weight: bold;
 text-align: center;
 line-height: 100px;
 
-  text-shadow: 0 1px 0 #77CBC9,
-               0 2px 0 #77CBC9,
-               0 3px 0 #77CBC9,
-               0 4px 0 #77CBC9,
-               0 5px 0 #77CBC9,
+  text-shadow: 0 1px 0 #EA8655,
+               0 2px 0 #EA8655,
+               0 3px 0 #EA8655,
+               0 4px 0 #EA8655,
+               0 5px 0 #EA8655,
                0 6px 0 transparent,
                0 7px 0 transparent,
                0 8px 0 transparent,
                0 9px 0 transparent,
                0 10px 10px rgba(0, 0, 0, .6);
 }
+
+#ContenText span {
+  font-style: normal;
+}
+
+#ContenText2{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 160px 70px;
+display: block;
+font-family: "Homer Simpson", cursive;
+font-size: 30px;
+color: #27283D;
+font-weight: bold;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #EA8655,
+               0 2px 0 #EA8655,
+               0 3px 0 #EA8655,
+               0 4px 0 #EA8655,
+               0 5px 0 #EA8655,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+#ContenText2 span {
+  font-style: normal;
+}
+
+#loader{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  overflow:hidden;
+}
+#loader::after{
+  content:'';
+  position:absolute;
+  left:0;bottom:0;
+  width:100%;height:50%;
+  background:#E3DFD2;
+  z-index:1;
+  animation: revealBot 0.3s 3s forwards ease-out;
+}
+.count{
+  position:absolute;
+  width:100%;height:50%;
+  bottom:50%;left:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  background:#E3DFD2;
+  animation: revealTop 0.3s 3s forwards ease-out;
+  z-index:2;
+}
+.count::after{
+  content:'';
+  width:100%;
+  border-bottom:1px solid;
+  transform-origin:0 50%;
+  transform:scale3d(0,1,1);
+  animation: count 3s ease-in-out forwards;
+}
+@keyframes count { to { transform:scale3d(1,1,1); } }
+@keyframes revealTop { to {transform:translate3d(0,-100%,0);} }
+@keyframes revealBot { to {transform:translate3d(0, 100%,0);} }
