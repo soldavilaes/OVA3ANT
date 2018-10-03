@@ -48,7 +48,8 @@ template{display: none;}
 /*!END normalize.css v7.0.0*/
 .ui-corner-all{border-radius:4px;}
 body{background-color:black;}
-#ardoraMain{ font-family:Verdana, Geneva, sans-serif; color: #F0F0F0; padding: 5px; position: relative;}
+#ardoraMain{ font-family:Verdana, Geneva, sans-serif; color: #F0F0F0; padding: 5px; position: relative; border: 3px solid rgba(235,30, 0, 1);
+background: linear-gradient(to bottom, #ffffff 0%, #ccffff 100%);}
 #ardoraEnu{ font-size: 12px; position: relative; padding: 5px; margin-bottom: 10px;
 text-align: justify;
 }
@@ -59,13 +60,61 @@ background:rgba(255,128,128,0.5);}
 #ardoraAlumSCORM p{padding:0px;margin:0px;padding-left: 2px;}
 #buttonOk{ position: absolute; height: 70px; width: 70px; bottom: 0px; cursor: pointer;border-style: solid; border-width: 1px;
 -webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
--webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5); box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);}
+-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5); box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);margin-left: -5px;}
 #ardoraActCanvas{z-index: 0; position: absolute; visibility:hidden;top:0; left:5px;}
-#ardoraAct{ width:650px;position: relative; margin-right: 10px; padding: 5px; float: left;
+#ardoraAct{ width: 740px;
+
+position: relative;
+
+margin-right: 10px;
+
+padding: 5px;
+
+float: left;
+
+margin-left: 90px;
 }
-#ardoraTab{width: 70px; height:320px;position: relative; visibility: visible;padding:5px;float:left;}
-#ardoraTag{color:#000000;text-align: justify;position: relative; clear: both; font-size:18px;}
-#ardoraChecks{font-family:Arial, Helvetica, sans-serif;position:relative; padding-top: 10px; padding-left: 10px; float:left;font-size:18px;}
+#ardoraTab{width: 70px; height:320px;position: relative; visibility: visible;padding:5px;float:left;font-size: 27px;
+
+font-family: Sansita; text-align: center;margin-top: 115px;
+
+margin-left: -20px;}
+#ardoraTag{color:#000000;text-align: justify;position: relative; clear: both; font-family: Sansita;
+
+text-align: center;
+
+font-size: 27px;
+
+text-shadow: 0 0 0.2em #00ffff, 0 0 0.2em #00ffff;
+
+font-weight: bold;
+
+width: 740px;
+
+text-transform: uppercase;}
+#ardoraChecks{font-family: Arial, Helvetica, sans-serif;
+
+position: relative;
+
+padding-top: 10px;
+
+padding-left: 10px;
+
+float: left;
+
+font-size: 18px;
+
+color: #000000;
+
+line-height: 1;
+
+text-align: justify;
+
+margin-top: 140px;
+
+margin-left: 30px;
+
+}
 label {display: inline-block;cursor: pointer;position: relative;padding-left: 25px;margin-right: 15px;margin-bottom: 5px;font-size:18px;}
 label:before {content: "";display: inline-block;width: 18px;height: 18px;margin-right: 5px;position: absolute;
 left:0;bottom:1px;color: black;border-style: solid;border-width: thin;
@@ -77,5 +126,6 @@ font-size: 22px;font-weight: bold;text-align: center;line-height: 15px;}
 .checkbox-grid{display: block;float: left;width: 100%;}
 ul{padding:0;margin:0}
 #acum {
-	margin: 20px 30px;
-}
+	margin: 40px -370px;
+
+box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.7);}

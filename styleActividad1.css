@@ -610,8 +610,10 @@ header.active, .intro.active, #menu-left.active, footer.active {
 }*/
 
 
-
-
 #indLetras {
   margin: -5px -80px;
+}
+
+#iActividad {
+  margin: 0px -50px;
 }
