@@ -311,6 +311,11 @@ section, article, div, .box {
   color: #000000;
  
 }
+
+#menu-left a {
+  text-decoration: none;
+}
+
 /* Efecto SubItems */
 #menu-left .content  li:hover {
   background: #AEB2B9;
